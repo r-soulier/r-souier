@@ -1,0 +1,67 @@
+.common{
+    text-align: center !important;
+    font-family: Arial, Helvetica, sans-serif !important;
+}
+
+.Header{
+    background-color: black !important;
+    color: white !important;
+    height: 100px !important;
+    line-height: 100px !important;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
+}
+
+.mainbody{
+    background-image: url(PIANOBACKGROUND.jpeg) !important;
+    background-size: cover !important; /* Makes sure the image covers the entire page */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
+    background-position: center center !important; /* Centers the image */
+    background-attachment: fixed !important; /* Keeps the image fixed as you scroll */
+    color: white !important; /* Optional, just to make text readable on the image */
+}
+
+.footer{
+    position: fixed !important;
+    background-color: black !important;
+    color: white !important;
+    bottom: 0px !important;
+    left: 0px !important;
+    right: 0px !important;
+    height: 50px !important;
+    line-height: 25px !important;
+}
+
+img{
+    display: block !important;
+    width: 25% !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
+nav{
+    background-color: gray !important;
+    padding: 10px !important;
+    overflow: hidden !important;
+}
+
+ul {
+    font-style: italic !important;
+}
+
+nav a{
+    color: black !important;
+    text-decoration: none !important;
+    padding: 20px !important;
+    font-weight: bold !important;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
+}
+
+nav a:hover{
+    background-color: #ccc !important;
+}
+
+ol, ul {
+    width: fit-content !important;        /* Makes the list only as wide as it needs to be */
+    margin: 0 auto !important;            /* Horizontally centers the block */
+    text-align: left !important;          /* Ensures text and bullets are left-aligned */
+}
