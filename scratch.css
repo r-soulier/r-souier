@@ -1,6 +1,7 @@
 .common{
     text-align: center !important;
     font-family: Arial, Helvetica, sans-serif !important;
+    font-size: 23px;
 }
 
 .Header{
@@ -18,6 +19,15 @@
     background-position: center center !important; /* Centers the image */
     background-attachment: fixed !important; /* Keeps the image fixed as you scroll */
     color: white !important; /* Optional, just to make text readable on the image */
+}
+
+#viz1745120883687 {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    flex-direction: column !important;
+    position: relative;
+    width: 100%;
 }
 
 .footer{
